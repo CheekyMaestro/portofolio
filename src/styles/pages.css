@@ -1,0 +1,117 @@
+/* ============================================
+   PAGE-SPECIFIC STYLES
+   ============================================ */
+
+/* === Generic Page Section === */
+.page-section {
+  padding: var(--space-4xl) 0;
+}
+
+.page-section + .page-section {
+  border-top: 1px solid var(--border);
+}
+
+/* === Home Page === */
+.home__featured {
+  padding: var(--space-3xl) 0 var(--space-4xl);
+}
+
+.home__featured-intro {
+  margin-bottom: var(--space-2xl);
+}
+
+.home__featured-title {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-md);
+  text-transform: uppercase;
+}
+
+.home__featured-desc {
+  font-size: var(--text-base);
+  color: var(--text-muted);
+  max-width: 540px;
+  line-height: 1.6;
+}
+
+.home__featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-2xl);
+}
+
+@media (max-width: 768px) {
+  .home__featured-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* === Projects Page === */
+.projects-page__header {
+  padding: calc(var(--space-5xl) + var(--navbar-height)) 0 var(--space-3xl);
+  text-align: center;
+}
+
+.projects-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-4xl);
+}
+
+/* === About Page === */
+.about-page__intro {
+  padding-top: calc(var(--space-5xl) + var(--navbar-height));
+}
+
+.about-page__skills {
+  padding: var(--space-4xl) 0;
+}
+
+.about-page__journey {
+  padding: var(--space-4xl) 0;
+}
+
+.about-page__tech {
+  padding: var(--space-4xl) 0;
+}
+
+/* === Experience Page === */
+.experience-page__header {
+  padding: calc(var(--space-5xl) + var(--navbar-height)) 0 var(--space-3xl);
+}
+
+.experience-page__timeline {
+  padding-bottom: var(--space-4xl);
+}
+
+/* === Certificates Page === */
+.certificates-page__header {
+  padding: calc(var(--space-5xl) + var(--navbar-height)) 0 var(--space-3xl);
+}
+
+.certificates-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: var(--space-xl);
+  padding-bottom: var(--space-4xl);
+}
+
+@media (max-width: 768px) {
+  .certificates-page__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* === Contact Page === */
+.contact-page__header {
+  padding: calc(var(--space-5xl) + var(--navbar-height)) 0 var(--space-3xl);
+}
+
+.contact-page__content {
+  padding-bottom: var(--space-4xl);
+}
