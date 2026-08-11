@@ -1,5 +1,44 @@
 export const experiences = [
   {
+    id: 'exp-kemendagri',
+    role: 'Data Analyst Intern',
+    company: 'Kementerian Dalam Negeri (Kemendagri)',
+    date: 'Aug 2026 — Sep 2026',
+    description: 'Worked as a Data Analyst Intern at the Ministry of Home Affairs, contributing to government data initiatives and analysis.',
+    image: '/images/experience/kemendagri.png',
+    impacts: [
+      'Analyzed government datasets to support data-driven policy decisions',
+      'Built data visualizations to communicate insights to stakeholders',
+      'Collaborated with the ministry team on national-level data projects',
+    ],
+  },
+  {
+    id: 'exp-idx',
+    role: 'Data Engineer Intern',
+    company: 'id/x Partners',
+    date: 'Jul 2026 — Aug 2026',
+    description: 'Worked as a Data Engineer Intern at id/x Partners, building and managing data pipelines and infrastructure.',
+    image: '/images/experience/idxpartners.png',
+    impacts: [
+      'Designed and developed data pipelines for large-scale datasets',
+      'Optimized data workflows and ETL processes',
+      'Collaborated with data teams to ensure data quality and reliability',
+    ],
+  },
+  {
+    id: 'exp-its-qa',
+    role: 'QA Website Coordinator',
+    company: 'Institut Teknologi Sepuluh Nopember (ITS)',
+    date: 'Apr 2026 — Jul 2026',
+    description: 'Served as QA Website Coordinator at ITS, ensuring the quality, performance, and reliability of official web platforms.',
+    image: '/images/experience/logoits.png',
+    impacts: [
+      'Coordinated quality assurance processes for ITS web platforms',
+      'Identified and resolved website issues to improve user experience',
+      'Ensured consistency and reliability across web services',
+    ],
+  },
+  {
     id: 'exp-1',
     role: 'Data Analyst Intern',
     company: 'PT. Kimia Farma, Tbk',

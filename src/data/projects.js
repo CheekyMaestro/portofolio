@@ -4,6 +4,54 @@
  */
 export const projects = [
   {
+    id: 'jagapilar',
+    title: 'Website for survey child psychology metrics',
+    tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    description: 'A website for survey child psychologi metrics . Features include product listing',
+    image: '/images/projects/project03.png',
+    links: {
+      demo: 'https://www.youtube.com/watch?v=zVhx5o1lOUU',
+      github: '#',
+    },
+    featured: true,
+  },
+  {
+    id: 'dapoer_oemmi.com',
+    title: 'Website for croissant,cake, and other snacks in Surabaya',
+    tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    description: 'A website for croissant,cake, and other snacks in Surabaya. Features include product listing',
+    image: '/images/projects/project02.png',
+    links: {
+      demo: 'file:///C:/Dapoer%20Ummi/index.html',
+      github: '#',
+    },
+    featured: true,
+  },
+  {
+    id: 'gowee-parfume.com',
+    title: 'Website for e - commerce parfum',
+    tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    description: 'A website for e - commerce parfum gowee. Features include product listing',
+    image: '/images/projects/project01.png',
+    links: {
+      demo: 'https://gowwee-parfume.vercel.app/',
+      github: '#',
+    },
+    featured: true,
+  },
+  {
+    id: 'project-4',
+    title: 'Kos Jemo – Accommodation Landing Page',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    description: 'A landing page for an accommodation website called Kos Jemo. Features include a responsive design, a navigation bar, a hero section, a list of rooms, and a footer.',
+    image: '/images/projects/project4.png',
+    links: {
+      demo: 'https://kos-jemo.vercel.app/',
+      github: '#',
+    },
+    featured: false,
+  },
+  {
     id: 'infomabaits.com',
     title: 'Website for new students of ITS',
     tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
@@ -38,17 +86,5 @@ export const projects = [
       github: 'https://github.com/CheekyMaestro/KIMIA_FARMA_INTERNSHIP',
     },
     featured: true,
-  },
-  {
-    id: 'project-4',
-    title: 'Kos Jemo – Accommodation Landing Page',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    description: 'A landing page for an accommodation website called Kos Jemo. Features include a responsive design, a navigation bar, a hero section, a list of rooms, and a footer.',
-    image: '/images/projects/project4.png',
-    links: {
-      demo: 'https://kosjemo.framer.website/',
-      github: '#',
-    },
-    featured: false,
   },
 ];
