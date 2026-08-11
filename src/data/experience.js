@@ -31,7 +31,7 @@ export const experiences = [
     company: 'Institut Teknologi Sepuluh Nopember (ITS)',
     date: 'Apr 2026 — Jul 2026',
     description: 'Served as QA Website Coordinator at ITS, ensuring the quality, performance, and reliability of official web platforms.',
-    image: '/images/experience/logoits.png',
+    image: '/images/experience/logoits.jpg',
     impacts: [
       'Coordinated quality assurance processes for ITS web platforms',
       'Identified and resolved website issues to improve user experience',
