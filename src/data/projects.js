@@ -46,7 +46,7 @@ export const projects = [
     description: 'A landing page for an accommodation website called Kos Jemo. Features include a responsive design, a navigation bar, a hero section, a list of rooms, and a footer.',
     image: '/images/projects/project4.png',
     links: {
-      demo: 'https://infomabaits-site.vercel.app/koskosan',
+      demo: 'https://kos-jemo.vercel.app/',
       github: '#',
     },
     featured: false,
@@ -58,7 +58,7 @@ export const projects = [
     description: 'A website for new students of ITS to get information about the campus and the admission process.',
     image: '/images/projects/project1.png',
     links: {
-      demo: '',
+      demo: 'https://infomabaits-site.vercel.app/koskosan',
       github: 'https://github.com/DocHudson45/infomabaits',
     },
     featured: true,
