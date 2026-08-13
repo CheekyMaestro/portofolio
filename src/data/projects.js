@@ -22,7 +22,7 @@ export const projects = [
     description: 'A website for croissant,cake, and other snacks in Surabaya. Features include product listing',
     image: '/images/projects/project02.png',
     links: {
-      demo: 'file:///C:/Dapoer%20Ummi/index.html',
+      demo: 'https://dapoer-ummie.vercel.app/',
       github: '#',
     },
     featured: true,
