@@ -53,5 +53,23 @@ export const certificates = [
     image: '/images/certificates/barunastra.png',
     credentialUrl: '#',
   },
+  {
+    id: 'cert-7',
+    title: 'Data Science with Microsoft Fabric',
+    issuer: 'Microsoft',
+    date: 'Aug 2026',
+    tag: 'Data Science',
+    image: '/images/certificates/data-science-microsoft-fabric.png',
+    credentialUrl: '#',
+  },
+  {
+    id: 'cert-8',
+    title: 'Membangun Aplikasi Gen AI dengan Azure',
+    issuer: 'Microsoft Azure',
+    date: 'Aug 2026',
+    tag: 'AI & Cloud',
+    image: '/images/certificates/membangun-gen-ai-azure.png',
+    credentialUrl: '#',
+  },
 
 ];
