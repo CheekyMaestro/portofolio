@@ -545,6 +545,26 @@
   line-height: 1.5;
 }
 
+.featured-card__link-label {
+  display: inline-block;
+  margin-top: var(--space-sm);
+  padding: 4px 10px;
+  background: hsla(145, 100%, 50%, 0.15);
+  color: var(--accent);
+  border: 1px solid hsla(145, 100%, 50%, 0.3);
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background var(--transition-base), border-color var(--transition-base);
+}
+
+.featured-card:hover .featured-card__link-label {
+  background: hsla(145, 100%, 50%, 0.25);
+  border-color: var(--accent);
+}
+
 
 /* ========== CERTIFICATE CARD ========== */
 .cert-card {

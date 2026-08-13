@@ -7,8 +7,14 @@ export function renderFeaturedCard(project) {
     .map((tag) => `<span class="featured-card__tag">${tag}</span>`)
     .join('');
 
+  // Prioritize demo link, fallback to github
+  const hasDemo = project.links.demo && project.links.demo !== '#';
+  const hasGithub = project.links.github && project.links.github !== '#';
+  const primaryLink = hasDemo ? project.links.demo : (hasGithub ? project.links.github : '#');
+  const linkLabel = hasDemo ? '🌐 Live Demo ↗' : (hasGithub ? '⌥ GitHub ↗' : '');
+
   return `
-    <a href="${project.links.github}" target="_blank" rel="noopener noreferrer" class="featured-card reveal" id="featured-${project.id}">
+    <a href="${primaryLink}" target="_blank" rel="noopener noreferrer" class="featured-card reveal" id="featured-${project.id}">
       <div style="overflow:hidden;">
         <img 
           src="${project.image}" 
@@ -22,6 +28,7 @@ export function renderFeaturedCard(project) {
         <div class="featured-card__tags">${tagsHTML}</div>
         <h3 class="featured-card__title">${project.title}</h3>
         <p class="featured-card__desc">${project.description}</p>
+        ${linkLabel ? `<span class="featured-card__link-label">${linkLabel}</span>` : ''}
       </div>
     </a>
   `;
