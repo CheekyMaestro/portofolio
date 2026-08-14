@@ -5,7 +5,7 @@
 export const projects = [
   {
     id: 'jagapilar',
-    title: 'Website for survey child psychology metrics',
+    title: 'JAGAPILAR ',
     tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     description: 'A website for survey child psychologi metrics . Features include product listing',
     image: '/images/projects/project03.png',
@@ -16,7 +16,7 @@ export const projects = [
   },
   {
     id: 'dapoer_oemmi.com',
-    title: 'Website for croissant,cake, and other snacks in Surabaya',
+    title: 'Dapoer Oemmi',
     tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     description: 'A website for croissant,cake, and other snacks in Surabaya. Features include product listing',
     image: '/images/projects/project02.png',
@@ -27,7 +27,7 @@ export const projects = [
   },
   {
     id: 'gowee-parfume.com',
-    title: 'Website for e - commerce parfum',
+    title: 'Gowee Parfume',
     tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     description: 'A website for e - commerce parfum gowee. Features include product listing',
     image: '/images/projects/project01.png',
@@ -38,7 +38,7 @@ export const projects = [
   },
   {
     id: 'project-4',
-    title: 'Kos Jemo – Accommodation Landing Page',
+    title: 'Kos Jemo',
     tags: ['HTML', 'CSS', 'JavaScript'],
     description: 'A landing page for an accommodation website called Kos Jemo. Features include a responsive design, a navigation bar, a hero section, a list of rooms, and a footer.',
     image: '/images/projects/project4.png',
@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     id: 'infomabaits.com',
-    title: 'Website for new students of ITS',
+    title: 'Infomabaits',
     tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     description: 'A website for new students of ITS to get information about the campus and the admission process.',
     image: '/images/projects/project1.png',
@@ -71,9 +71,9 @@ export const projects = [
   },
   {
     id: 'project-3',
-    title: 'Pharmaceutical Sales Performance Dashboard',
+    title: 'Kimia Farma Dashboard',
     tags: ['Data Visualization', 'Tableau', 'Python'],
-    description: 'A data-driven dashboard designed to analyze pharmaceutical sales performance across multiple regions. This project provides insights into yearly revenue trends and transaction distribution by province, helping identify high-performing areas and business opportunities.',
+    description: 'Pharmaceutical Sales Performance Dashboard',
     image: '/images/projects/project3.png',
     links: {
       demo: '#',
