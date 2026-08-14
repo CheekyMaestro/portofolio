@@ -11,7 +11,6 @@ export const projects = [
     image: '/images/projects/project03.png',
     links: {
       demo: 'https://www.youtube.com/watch?v=zVhx5o1lOUU',
-      github: '#',
     },
     featured: true,
   },
@@ -23,7 +22,6 @@ export const projects = [
     image: '/images/projects/project02.png',
     links: {
       demo: 'https://dapoer-ummie.vercel.app/',
-      github: '#',
     },
     featured: true,
   },
@@ -35,7 +33,6 @@ export const projects = [
     image: '/images/projects/project01.png',
     links: {
       demo: 'https://gowwee-parfume.vercel.app/',
-      github: '#',
     },
     featured: true,
   },
@@ -47,7 +44,6 @@ export const projects = [
     image: '/images/projects/project4.png',
     links: {
       demo: 'https://kos-jemo.vercel.app/',
-      github: '#',
     },
     featured: false,
   },
@@ -59,7 +55,6 @@ export const projects = [
     image: '/images/projects/project1.png',
     links: {
       demo: 'https://infomabaits-site.vercel.app/koskosan',
-      github: 'https://github.com/DocHudson45/infomabaits',
     },
     featured: true,
   },
@@ -71,7 +66,6 @@ export const projects = [
     image: '/images/projects/project2.jpeg',
     links: {
       demo: 'https://pagiwebviewzone.com/',
-      github: 'https://github.com/brilliannaufal123/MidtermExamWebProIUP',
     },
     featured: true,
   },
@@ -83,7 +77,6 @@ export const projects = [
     image: '/images/projects/project3.png',
     links: {
       demo: '#',
-      github: 'https://github.com/CheekyMaestro/KIMIA_FARMA_INTERNSHIP',
     },
     featured: true,
   },
@@ -94,8 +87,7 @@ export const projects = [
     description: 'A data engineering project-based internship at Rakamin Academy. Covers end-to-end data pipeline processes including data ingestion, transformation, and loading using industry-standard tools.',
     image: '/images/projects/Project Data Engineer.png',
     links: {
-      demo: 'https://drive.google.com/file/d/1UiILx9w1ogI6SExTY04X03QoqkpJsYE0/view?usp=sharing',
-      github: '#',
+      demo: 'https://www.youtube.com/watch?v=gv4SCtiroiU&t=53s',
     },
     featured: true,
   },
