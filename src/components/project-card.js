@@ -28,7 +28,7 @@ export function renderFeaturedCard(project) {
         <div class="featured-card__tags">${tagsHTML}</div>
         <h3 class="featured-card__title">${project.title}</h3>
         <p class="featured-card__desc">${project.description}</p>
-        ${linkLabel ? `<span class="featured-card__link-label">${linkLabel}</span>` : ''}
+
       </div>
     </a>
   `;
