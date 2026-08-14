@@ -71,5 +71,13 @@ export const certificates = [
     image: '/images/certificates/membangun-gen-ai-azure.png',
     credentialUrl: '#',
   },
-
+  {
+    id: 'cert-9',
+    title: 'Data Engineer Project-Based Internship',
+    issuer: 'Rakamin Academy',
+    date: 'Jul 2026',
+    tag: 'Data Engineering',
+    image: '/images/certificates/Data Engineer Project Based Internships.png',
+    credentialUrl: '#',
+  },
 ];
