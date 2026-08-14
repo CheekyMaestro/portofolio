@@ -87,4 +87,16 @@ export const projects = [
     },
     featured: true,
   },
+  {
+    id: 'data-engineer-pbi',
+    title: 'Data Engineer Project-Based Internship',
+    tags: ['Python', 'SQL', 'ETL', 'Data Pipeline'],
+    description: 'A data engineering project-based internship at Rakamin Academy. Covers end-to-end data pipeline processes including data ingestion, transformation, and loading using industry-standard tools.',
+    image: '/images/projects/Project Data Engineer.png',
+    links: {
+      demo: 'https://drive.google.com/file/d/1UiILx9w1ogI6SExTY04X03QoqkpJsYE0/view?usp=sharing',
+      github: '#',
+    },
+    featured: true,
+  },
 ];
