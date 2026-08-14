@@ -56,7 +56,7 @@ export const projects = [
     links: {
       demo: 'https://infomabaits-site.vercel.app/koskosan',
     },
-    featured: true,
+    featured: false,
   },
   {
     id: 'Dental-Booking website',
@@ -67,7 +67,7 @@ export const projects = [
     links: {
       demo: 'https://pagiwebviewzone.com/',
     },
-    featured: true,
+    featured: false,
   },
   {
     id: 'project-3',
@@ -78,7 +78,7 @@ export const projects = [
     links: {
       demo: '#',
     },
-    featured: true,
+    featured: false,
   },
   {
     id: 'data-engineer-pbi',
@@ -89,6 +89,6 @@ export const projects = [
     links: {
       demo: 'https://www.youtube.com/watch?v=gv4SCtiroiU&t=53s',
     },
-    featured: true,
+    featured: false,
   },
 ];
