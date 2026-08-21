@@ -4,6 +4,7 @@
 import { renderHero } from '../components/hero.js';
 import { renderFeaturedCard } from '../components/project-card.js';
 import { renderCTA } from '../components/cta.js';
+import { renderCompanies } from '../components/companies.js';
 import { projects } from '../data/projects.js';
 
 export function renderHomePage() {
@@ -11,7 +12,9 @@ export function renderHomePage() {
 
   const html = `
     ${renderHero()}
-    
+
+    ${renderCompanies()}
+
     <section class="home__featured page-section" id="home-featured">
       <div class="container">
         <div class="home__featured-intro reveal">
