@@ -15,4 +15,5 @@ export const companies = [
   { name: 'Gowee Parfume', logo: '/images/company/gowwee.png' },
   { name: 'Kos Jemo', logo: '/images/company/kos_jemo.png' },
   { name: 'Dapoer Oemmi', logo: '/images/company/dapoer_ummie.png' },
+  { name: 'IIM Lab Administrator', logo: '/images/company/mci.png' },
 ];
