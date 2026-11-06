@@ -7,10 +7,11 @@ export function renderFeaturedCard(project) {
     .map((tag) => `<span class="featured-card__tag">${tag}</span>`)
     .join('');
 
-  // Use demo link if available
+  // Use demo link if available, fall back to deck link
   const hasDemo = project.links.demo && project.links.demo !== '#';
-  const primaryLink = hasDemo ? project.links.demo : '#';
-  const linkLabel = hasDemo ? '🌐 Live Demo ↗' : '';
+  const hasDeck = project.links.deck && project.links.deck !== '#';
+  const primaryLink = hasDemo ? project.links.demo : hasDeck ? project.links.deck : '#';
+  const linkLabel = hasDemo ? '🌐 Live Demo ↗' : hasDeck ? '📋 View Deck ↗' : '';
 
   return `
     <a href="${primaryLink}" target="_blank" rel="noopener noreferrer" class="featured-card reveal" id="featured-${project.id}">
@@ -89,6 +90,7 @@ export function renderProjectSection(project, index) {
         <p class="project-section__desc">${project.description}</p>
         <div class="project-section__actions">
           ${project.links.demo && project.links.demo !== '#' ? `<a href="${project.links.demo}" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm" id="demo-${project.id}">View Demo →</a>` : ''}
+          ${project.links.deck && project.links.deck !== '#' ? `<a href="${project.links.deck}" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm" id="deck-${project.id}">${project.deckLabel || 'View Deck →'}</a>` : ''}
         </div>
       </div>
     </section>

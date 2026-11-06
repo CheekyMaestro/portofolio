@@ -4,14 +4,39 @@
  */
 export const projects = [
   {
+    id: 'trace',
+    title: 'TRACE — Manufacturing Knowledge Hub',
+    tags: ['AI Engineer', 'RAG', 'LLM', 'Next.js'],
+    description: 'An AI-powered manufacturing knowledge hub that centralises operational knowledge and documentation for plant technicians, reliability engineers, and admins. Built with retrieval-augmented generation (RAG) to surface accurate, context-aware answers from factory knowledge bases.',
+    image: '/images/projects/trace.png',
+    links: {
+      demo: 'https://youtu.be/zVhx5o1lOUU?si=JTrQCxxrvoRzRv3f',
+      deck: 'https://canva.link/py37m9vya00xcwc',
+    },
+    featured: true,
+  },
+  {
+    id: 'cobest',
+    title: 'CoBEST — Cocoa Blockchain Traceability',
+    tags: ['Full-Stack', 'Web3', 'Blockchain', 'Next.js'],
+    description: 'A full-stack Web3 platform for end-to-end cocoa traceability — from farm to export. Connects Farmers, Cooperatives, and Exporters on a single decentralised portal, enabling transparent supply-chain tracking and certification.',
+    image: '/images/projects/cobest.jpg',
+    links: {
+      deck: 'https://canva.link/axuej7f519l6y3w',
+    },
+    featured: true,
+  },
+  {
     id: 'jagapilar',
-    title: 'JAGAPILAR ',
+    title: 'JAGAPILAR',
     tags: ['Next.js', 'Tailwind CSS', 'TypeScript'],
-    description: 'A website for survey child psychologi metrics . Features include product listing',
+    description: 'A website for survey child psychology metrics — helping educators and parents assess developmental indicators. PKM finalist project.',
     image: '/images/projects/project03.png',
     links: {
       demo: 'https://www.youtube.com/watch?v=zVhx5o1lOUU',
+      deck: 'https://canva.link/axuej7f519l6y3w',
     },
+    deckLabel: 'FINALIS PKM DECK',
     featured: true,
   },
   {
