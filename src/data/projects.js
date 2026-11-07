@@ -16,6 +16,17 @@ export const projects = [
     featured: true,
   },
   {
+    id: 'pickopoppy',
+    title: 'Picko Poppy',
+    tags: ['Founder', 'Frontend Developer', 'Next.js', 'Tailwind CSS'],
+    description: 'A cheerful digital book platform for children aged 3–6 to learn letters, numbers, and colours with animals. Founded and built as Frontend Developer — features bilingual (ID/EN) support, product listing, and a playful animated UI.',
+    image: '/images/projects/pickopoppy.jpg',
+    links: {
+      demo: 'https://pickopoppy.vercel.app/',
+    },
+    featured: true,
+  },
+  {
     id: 'cobest',
     title: 'CoBEST — Cocoa Blockchain Traceability',
     tags: ['Full-Stack', 'Web3', 'Blockchain', 'Next.js'],
