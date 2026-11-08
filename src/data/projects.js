@@ -4,6 +4,17 @@
  */
 export const projects = [
   {
+    id: 'hr-analytics-mining',
+    title: 'HR Analytics — Mining Site Operations Dashboard & Data Quality Pipeline',
+    tags: ['People Analytics', 'Next.js 16', 'PostgreSQL', 'Drizzle ORM', 'Tailwind CSS'],
+    description: 'An end-to-end HR analytics system and data quality pipeline for mining site operations. Analyzes 4,500+ monthly records across 400 employees, resolving data defects, standardizing HR KPIs (turnover, absenteeism, overtime costs), and delivering actionable insights via an executive dashboard.',
+    image: '/images/projects/hr-analytics.jpg',
+    links: {
+      demo: '#',
+    },
+    featured: true,
+  },
+  {
     id: 'trace',
     title: 'TRACE — Manufacturing Knowledge Hub',
     tags: ['AI Engineer', 'RAG', 'LLM', 'Next.js'],
